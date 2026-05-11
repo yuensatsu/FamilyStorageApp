@@ -58,8 +58,14 @@ public class PoiController : MonoBehaviour
             return;
         }
 
-        HandleTouchInput();
-        HandleMouseInput();
+        if (Input.touchCount > 0)
+        {
+            HandleTouchInput();
+        }
+        else
+        {
+            HandleMouseInput();
+        }
     }
 
     /// <summary>
