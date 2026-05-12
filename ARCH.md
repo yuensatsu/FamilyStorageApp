@@ -36,6 +36,8 @@
 /
 ├─ ARCH.md
 ├─ README.md
+├─ SPEC.md
+├─ TODO.md
 └─ Assets
    ├─ Audio
    │  └─ .gitkeep
@@ -773,3 +775,8 @@ InputManager
 ```
 
 初学者が理解しやすいように、各Managerは単純な責務に分けられています。まずは`GoldfishScene`内で遊べる状態を作り、その後に`TitleScene`、`ResultScene`、音、見た目、Prefab、シーン遷移を順番に足していくのが安全です。
+
+## 関連ドキュメント
+
+- `SPEC.md`: 金魚すくい3Dの正式仕様
+- `TODO.md`: 仕様と実装状況の差分、優先順位付きタスク
